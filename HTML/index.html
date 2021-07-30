@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>webDev:Full stack web development</title>
+    <script src="../javaScript/jquery-3.6.0.min.js"></script>
+    <script src="../javaScript/index.js"></script>
+    <script src="../javaScript/jquery.js" defer></script>
+</head>
+
+<body>
+    <!-- Navbar  -->
+    <nav class="navbar background ">
+        <ul class="unorderlist ">
+            <img class='logo' src='../imgs/logo.png' alt='logo'>
+            <li><a href="/HTML/index.html">Home</a></li>
+            <li><a href="/HTML/services.html" id="mainSection">Services</a></li>
+            <li><a href="/HTML/jobs.html">Jobs</a></li>
+            <li><a href="/HTML/about.html">About</a></li>
+            <li><a href="/HTML/contact.html">Contact</a></li>
+        </ul>
+        <div class="rightnav">
+            <input type="text" name="text" id="text">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+    <section class="firstsection background" id='home'>
+        <div class="container">
+            <div class="firsthalf">
+                <p class="big-text">Welcome to Web Developer's era!</p>
+                <p class="small-text">We are hiring Web Devoplers who can design deploy code develope test and maintain!
+                </p>
+                <div class="buttons">
+                    <a href="#contact1" class="btn  lg-btn" id="mainBtn">Register</a>
+                    <a href="#contact2" class="btn  lg-btn" id="mainBtn2">Login</a>
+                </div>
+            </div>
+            <div class="secondhalf">
+                <img src='../imgs/logo.png' alt='logo'>
+            </div>
+        </div>
+    </section>
+
+    <!-- Register form  -->
+   
+        <section class="contact" id='contact1'>
+            <h1 class="registerheading">Register Here</h1>
+            <div class="info">
+                <form id="formNode" novalidate>
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+                <span id="sp" class="center"></span><br>
+
+                <input type="email" name="email" id="email" class="mail"placeholder="Enter your email">
+                <span id="sp1" class="center"></span><br>
+
+                <input type="text" name="phone" id="phone" placeholder="Enter your phone no.">
+                <span id="sp2" class="center"></span><br>
+
+              <select>
+                  <option>Female</option>
+                  <option>Male</option>
+                  <option>others</option>
+              </select>
+
+                <input type="password" name="password" id="password" placeholder="Enter your Password">
+                <span id="sp3" class="center"></span><br>
+                <input type="Password" name="cPassword" id="cPassword" placeholder="Confirm Password">
+                <span id="sp4" class="center"></span><br>
+                <input type="checkbox" name="" id="check"> <label for="check">Show password</label>
+                <button class="btn cbtn">Register</button>
+            </form>
+            </div>
+        </section>
+          
+        <!-- Login Form  -->
+        <main id="register">
+        <section class="contact" id='contact2'>
+            <h1 class="registerheading">Login Here</h1>
+            <div class="info">
+                <form action="" id="formNode1">
+                <input type="text" name="name" id="name1" placeholder="Enter your name">
+                <span id="sp7" class="center"></span><br>
+                <input type="email" name="email" id="email1" placeholder="Enter your email">
+                <span id="sp5" class="center"></span><br>
+                <input type="password" name="password" id="password1" placeholder="Enter your password">
+                <span id="sp6" class="center"></span><br>
+                <button class="btn cbtn">Login</button>
+            </form>
+            </div>
+        </section>
+        <section class="cred">
+
+        </section>
+    </main>
+    
+    <!-- Footer  -->
+    <footer class="footer">
+        <p>All 2020 copyrights &copy; reserved <a href="#">www.webDev.com</a></p>
+        <marquee><a href="#" style="text-decoration: none;">www.webDev.com</a></marquee>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>

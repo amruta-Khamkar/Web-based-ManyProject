@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+/* NavBar*/
+.navbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.background{
+    background: rgba(0,0,0,0.7) url('../imgs/bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+ .logo {
+    width:60px;
+    height: 60px;
+    margin-top:9px 0;
+    border: 4px solid white;
+    border-radius: 40px;
+    margin-right: 0;
+}
+.unorderlist{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+.unorderlist li{
+    list-style: none;
+}
+.unorderlist li a{
+    text-decoration: none;
+    padding: 6px 30px ;
+    font-size: 22px;
+    color: white;
+}
+.unorderlist li a:hover{
+    color: rgb(196, 196,196);
+    text-decoration: underline;
+}
+.rightnav{
+    width:30%;
+    text-align: right;
+}
+.rightnav input{
+    padding:6px;
+    margin:9px 3px;
+    margin-top:18px;
+    border-radius: 6px;
+}
+.btn{
+    padding:6px 9px;
+    margin-right: 6px;
+    border: 2px solid black;
+    background: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.btn:hover{
+    background-color:black;
+}
+
+ /* background image   */
+.container{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firsthalf{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+ .big-text{
+     font-size: 40px;
+     color: white;
+     font-family: 'Ubuntu', sans-serif;
+}
+.small-text{
+    font-size: 25px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+ }
+ .buttons{
+     padding-top: 10px;
+ }
+.buttons .lg-btn{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 6px 12px;
+}
+.secondhalf img{
+    width:80%;
+    height:250px;
+    border: 3px solid white;
+    border-radius:500px;
+}
+
+.secondhalf{
+    position: relative;
+    animation: amruta2 3s ease-in 1s infinite alternate;
+}
+ /* Animation of logo  */
+@keyframes amruta2 {
+    0%{
+      top:0px;
+    }
+    25%{
+      bottom:60px;
+    }
+    75%{
+      top:100px;
+      
+    }
+    100%{
+      top:0px;
+    
+    }
+  }
+
+h1{
+    font-size:50px ;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* for login and register input fields on index html page  */
+#email1,#password1,#name1{
+    width: 30%;
+}
+.info input,select,textarea{
+    display: block;
+    width:50%;
+    padding:9px 3px;
+    margin:12px auto;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+select{
+    margin-bottom: 33px;
+}
+input#check{
+    display: inline;;
+}
+label{
+    font-size: 19px;
+    margin-left: -320px;
+    margin-top: 1px;
+    color: blanchedalmond;
+
+}
+span.center,.sp1,.sp3{
+    text-align: center;
+    display: inline-block;
+    width: 50%;
+    margin: 3px auto;
+    margin-left: 300px;
+    font-size: 21px;
+}
+.cbtn{
+    display: block;
+    margin:0px auto;
+    padding:9px 15px;
+    background-color: rgb(59, 58, 56);
+}
+.contact{
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(39, 33, 38));
+    padding: 12px;
+}
+
+/* Services page starts here  */
+.secondSection{
+    display: flex;
+    margin:30px 12px;
+    background-color: rgb(248, 245, 239);
+    box-shadow: 6px 6px 2px;
+    padding: 21px;
+    border: 2px solid black;
+    border-radius: 40px;
+    transition: all 0.1s;
+}
+.secondSection:hover{
+    box-shadow: 6px 6px 2px rgb(27, 27, 27);
+    background-color: rgb(172, 161, 161);
+}
+.secondSection img{
+   width:300px;
+   margin: 20px;
+   border: 2px solid black;
+   border-radius: 15px;
+   transition: all 2s;
+}
+.secondSection img:hover{
+   transform: rotate(360deg);
+ }
+.secondSection .bcolor{
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+.secondSection .scolor{
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+}
+ .left{
+    flex-direction: row-reverse;
+}
+.center{
+    text-align: center;
+    margin: 20px auto;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Jobs page starts here  */
+  .article{
+    display: inline-block;
+     border: 2px solid rgb(0, 0, 0);
+    box-shadow: 6px 6px 2px;
+    border-radius: 30px;
+    width: 570px;
+    margin:  40px 34px; 
+    height: 470px; 
+    cursor: pointer;
+}
+
+.card,.card1,.card2,.card3,.card4,.card5{
+    background-image: url('/imgs/webDev.jpg');
+    border-radius: 30px;
+    width: 570px;
+    height: 470px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    transition:all 1s;
+}
+
+.card1{
+    background-image: url('/imgs/webDes.jpg');
+}
+.card2{
+   background-image: url('/imgs/react1.jfif');
+}
+.card3{
+   background-image: url('/imgs/angular1.jpg');
+}
+.card4{
+   background-image: url('/imgs/vue1.png');
+}
+.card5{
+   background-image: url('/imgs/ts1.svg');
+}
+.sp{
+    font-size: 30px;
+    text-align: center;
+    margin: 200px 0 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.file{
+    position: relative;
+    left:-520px;
+    top:45px;
+    font-size: 21px;
+}
+h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* About Page  */
+
+.aboutus{
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(119, 110, 118));
+    background-blend-mode: darken;
+    padding: 25px;
+
+}
+.trust{
+    background-image: url('/imgs/aboutBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 600px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 21px;
+}
+.trust ul{
+    font-size: 21px;
+    height: 310px;
+    width: 400px;
+    margin: 15px auto;
+    font-weight: bold;
+}
+.trust ul li{
+  border: 2px solid rgb(0, 0, 0);
+  padding: 12px;
+  list-style: none;
+  transition: all 0.5s;
+}
+.trust ul li:hover{
+ background-color: rgb(78, 78, 78);
+ color: white;
+}
+.trustH2{
+    margin-top: 100px;
+    color: red;
+    font-weight: bolder;
+}
+#sec{
+    padding: 21px;
+}
+.article .cardd img{
+    width:570px;
+    height: 470px;
+    border-radius: 30px;
+}
+.spany{
+    font-size: 35px;
+    position: relative;
+    top:6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left:180px;
+}
+/* footer starts here  */
+.footer{
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+} 
+.footer a{
+    color: white;
+}

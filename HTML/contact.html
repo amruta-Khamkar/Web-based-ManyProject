@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/contact.css">
+    <script src="https://kit.fontawesome.com/52356246fc.js" crossorigin="anonymous"></script>
+    <title>webDev:Full stack web development</title>
+    <script src="/javaScript/jquery-3.6.0.min.js"></script>
+    <script src="/javaScript/contact.js " defer></script>
+</head>
+
+<body>
+    <!-- Navbar  -->
+    <nav class="navbar background h-nav-resp">
+        <ul class="unorderlist v-resp">
+            <img class='logo' src='../imgs/logo.png' alt='logo'>
+            <li><a href="/HTML/index.html">Home</a></li>
+            <li><a href="/HTML/services.html" id="mainSection">Services</a></li>
+            <li><a href="/HTML/jobs.html">Jobs</a></li>
+            <li><a href="/HTML/about.html">About</a></li>
+            <li><a href="/HTML/contact.html">Contact</a></li>
+        </ul>
+        </ul>
+        <div class="rightnav v-resp">
+            <input type="text" name="text" id="text">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+
+    <!-- Contact Us Form  -->
+    <section class="contact contactPage" id='contact'>
+        <h1>Get In Touch</h1>
+        <form id="formNode">
+        <div class="info">
+            <input type="text" name="name" id="name"  placeholder="Enter your name">
+            <span id="sp" class="center"></span><br>
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <span id="sp1" class="center"></span><br>
+            <input type="text" name="phone" id="phone" placeholder="Enter your phone no.">
+            <span id="sp2" class="center"></span><br>
+            <textarea name="qualifications" id="qua" cols="30" rows="6"
+                placeholder="Enter your Feedback here..."></textarea>
+            <button class="btn cbtn">Submit</button>
+        </div>
+    </form>
+        <h1>Do Follow Us On</h1>
+        <ul class="icons">
+            <li><i  class="fab  i1 fa-linkedin"></i></li>
+            <li><i  class="fab  i1 fa-facebook"></i></li>
+            <li><i  class="fab  i1 fa-instagram"></i></li>
+            <li><i  class="fab  i1 fa-twitter-square"></i></li>
+        </ul>
+  </section>
+
+    <footer class="footer">
+        <p>All 2020 copyrights &copy; reserved <a href="#">www.webDev.com</a></p>
+        <marquee><a href="#" style="text-decoration: none;">www.webDev.com</a></marquee>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

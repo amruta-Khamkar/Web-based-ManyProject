@@ -1,0 +1,37 @@
+.contactPage{
+    background-image:url('/imgs/contact.jpg');
+    background-size: cover;
+    padding: 12px;
+}
+.contactPage h1{
+    color: white;
+}
+.contactPage input,textarea{
+    /* background-color: rgb(255, 189, 241); */
+    background: none;
+    outline: none;
+    border-color: rgb(255, 222, 255);
+    color: rgb(229, 255, 0);
+    font-weight: bolder;
+}
+.contactPage,input::placeholder{
+    color: rgb(229, 255, 0);
+}
+.contactPage,textarea::placeholder{
+    color:  rgb(229, 255, 0);
+}
+.contactPage .btn:hover{
+    background-color: blueviolet;
+}
+.icons {
+    display: flex;
+    font-size: 51px;
+    list-style: none;
+    position: relative;
+    left:485px;
+    color: rgb(83, 83, 247);
+    cursor: pointer;
+}
+.icons i{
+    padding: 0 21px;
+}

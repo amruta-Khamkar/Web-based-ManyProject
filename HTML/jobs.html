@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>webDev:Full stack web development</title>
+    <script src="/javaScript/jquery-3.6.0.min.js"></script>
+    <script src="/javaScript/jobs.js"></script>
+</head>
+
+<body>
+    <!-- Navbar  -->
+    <nav class="navbar background h-nav-resp">
+        <ul class="unorderlist v-resp">
+            <img class='logo' src='../imgs/logo.png' alt='logo'>
+            <li><a href="/HTML/index.html">Home</a></li>
+            <li><a href="/HTML/services.html" id="mainSection">Services</a></li>
+            <li><a href="/HTML/jobs.html">Jobs</a></li>
+            <li><a href="/HTML/about.html">About</a></li>
+            <li><a href="/HTML/contact.html">Contact</a></li>
+        </ul>
+        <div class="rightnav v-resp">
+            <input type="text" name="text" id="text">
+            <button class="btn btn-sm">Search</button>
+    </nav>
+    </div>
+    <h1>Apply For Jobs Here</h1>
+    <h2 style="color: red;">Apply for one job at a time</h2>
+
+    <!-- Apply job form  -->
+    <section class="contact hidden" id='contact1 '>
+        <h1 class="registerheading">Apply Now</h1>
+        <div class="info">
+            <form id="formNode" novalidate>
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+                <span id="sp" class="center"></span><br>
+
+                <input type="email" name="email" id="email" class="mail" placeholder="Enter your email">
+                <span id="sp1" class="center"></span><br>
+
+                <input type="text" name="phone" id="phone" placeholder="Enter your phone no.">
+                <span id="sp2" class="center"></span><br>
+
+                <select>
+                    <option>Female</option>
+                    <option>Male</option>
+                    <option>others</option>
+                </select>
+
+                <input type="text" name="name" id="cName" placeholder="Enter your College name">
+                <span id="sp3" class="center"></span><br>
+                <select>
+                    <option>Select Highest Qualifications</option>
+                    <option>BE/BTECH</option>
+                    <option>ME/MTECH</option>
+                    <option>BSC</option>
+                    <option>MSC</option>
+                    <option>BCA</option>
+                    <option>MCA</option>
+                    <option>OTHERS</option>
+                </select>
+                <select>
+                    <option>Select Your Branch</option>
+                    <option>Computer Engineering</option>
+                    <option>IT Engineering</option>
+                    <option>Electrical Engineering</option>
+                    <option>Electronic and Communication Engineering</option>
+                    <option>Others</option>
+                </select>
+    
+                <input type="number" name="phone" id="ssc" placeholder="Enter your SSC %">
+                <span id="sp4" class="center"></span><br>
+
+                <input type="number" name="phone" id="hsc" placeholder="Enter your HSC %">
+                <span id="sp5" class="center"></span><br>
+
+                <input type="number" name="phone" id="cgpa" placeholder="Enter your BE % or CGPA">
+                <span id="sp6" class="center"></span><br>
+
+                <textarea name="qualifications" cols="30" rows="6"
+                placeholder="Enter Prograamming Languages you know and web develpement skills..."></textarea>
+
+                <textarea name="qualifications"  cols="30" rows="6"
+                placeholder="Tell us about your projects..."></textarea>
+
+                <input type="url" name="name" placeholder="Enter your Project Url">
+                <!-- <span id="sp" class="center"></span> -->
+
+                <input type="url" name="name" placeholder="Enter your Linkedln Url">
+                <!-- <span id="sp" class="center"></span> -->
+
+               
+                <label class="file">Upload Your Resume:</label><input type="file" id="resume" name="name" placeholder="Enter your name">
+                <span id="sp7" class="center"></span><br>
+                
+
+                <input type="checkbox" checked name="" id="check"> <label for="check" > I Agree to the terms and conditions</label>
+                <span id="sp8" class="center"></span><br>
+
+                <button class="btn cbtn">Apply Now</button>
+            </form>
+        </div>
+    </section>
+    <!-- Jobs Available -->
+    <section class="section1">
+        <article class="article">
+            <div class="card">
+                <p class="sp"><strong> Web Developer</strong> <br><strong> Click On Image to apply for a Job</strong></p>
+            </div>
+        </article>
+        <article class="article">
+            <div class="card1">
+                <p class="sp"><strong> Web Designer</strong> <br><strong> Click On Image to apply for a Job</strong></p>
+            </div>
+        </article>
+        <article class="article">
+            <div class="card2">
+                <p class="sp"><strong>React Js Developer</strong><br><strong> Click On Image to apply for a Job</strong> </p>
+            </div>
+        </article>
+        <article class="article">
+            <div class="card3">
+                <p class="sp"><strong> Angular Js Developer</strong> <br><strong> Click On Image to apply for aJob</strong></p>
+            </div>
+        </article>
+        <article class="article">
+            <div class="card4">
+                <p class="sp"><strong> Vue Js Developer</strong><br><strong> Click On Image to apply for a Job</strong></p>
+            </div>
+        </article>
+        <article class="article">
+            <div class="card5">
+                <p class="sp"><strong> TypeScript</strong><br><strong> Click On Image to apply for a Job</strong></p>
+            </div>
+        </article>
+    </section>
+    
+    <footer class="footer">
+        <p>All 2020 copyrights &copy; reserved <a href="#">www.webDev.com</a></p>
+        <marquee><a href="#" style="text-decoration: none;">www.webDev.com</a></marquee>
+    </footer>
+</body>
+
+</html>
