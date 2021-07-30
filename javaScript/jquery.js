@@ -201,7 +201,7 @@ let validation5 = () => {
         email1.css({ border: "2px solid red"})
         return false;
 
-    }
+    } 
     else if (!str.includes("@") || ss === "") {
         sp5.html("<strong>! Please enter valid Email</strong>");
         sp5.css({ color: "red" })
