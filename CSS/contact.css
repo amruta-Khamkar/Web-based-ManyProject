@@ -35,3 +35,6 @@
 .icons i{
     padding: 0 21px;
 }
+#reset:hover{
+    background-color: purple;
+}

@@ -24,6 +24,10 @@
     border-radius: 40px;
     margin-right: 0;
 }
+#inline{
+    /* display: inline; */
+    margin-top: 12px ;
+}
 .unorderlist{
     width: 70%;
     display: flex;
@@ -62,6 +66,7 @@
     font-size: 16px;
     color: white;
     font-family: 'Ubuntu', sans-serif;
+  
 }
 .btn:hover{
     background-color:black;
@@ -151,7 +156,7 @@ select{
     margin-bottom: 33px;
 }
 input#check{
-    display: inline;;
+    display: inline-block;
 }
 label{
     font-size: 19px;
@@ -330,6 +335,40 @@ h2{
     top:6px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     left:180px;
+}
+#reset1{
+    padding:9px;
+    margin-right: 6px;
+    border: 2px solid black;
+    background: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+  
+}
+#reset{
+    padding:9px;
+    margin-right: 6px;
+    border: 2px solid black;
+    background: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+  
+}
+#reset1:hover{
+    background-color:black;
+}
+#reset:hover{
+    background-color:black;
+}
+#reset,#reset1{
+    position: relative;
+    right: 610px;
 }
 /* footer starts here  */
 .footer{
